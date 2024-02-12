@@ -35,3 +35,27 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++
+
+let myYt = "HarshuPlays"
+
+let anotherYt = myYt
+
+anotherYt = "Cyrus Gaming"
+
+console.log(anotherYt);
+console.log(myYt);
+
+let user1 ={
+    email: "user.email.com",
+    upi: "user@ybl"
+}
+
+let userTwo = user1
+
+userTwo.email ="harsh@gmail.com"
+
+console.log(userTwo.email);
+console.log(user1.email);
